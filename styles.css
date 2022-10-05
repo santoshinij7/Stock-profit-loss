@@ -1,0 +1,101 @@
+:root {
+    --primary-first: rgb(90, 38, 38);
+     --primary-second: black;
+     --third-color:white;
+ }
+ body {
+     font-family: 'Source Sans Pro', sans-serif;
+     text-align: center;
+     margin: 0;
+     color: hsl(0, 41%, 25%);
+     font-size: 20px;
+ }
+ #header {
+     background-color: var(--primary-first);
+     color: var(--third-color);
+     padding: 0.2rem 0 0.2rem 0;
+     border-top-right-radius: 1rem;
+     border-top-left-radius: 1rem;
+     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+ }
+ #main {
+     margin: 3rem 0;
+ }
+ input {
+     display: block;
+     margin: 0.5rem auto;
+     padding: 0.7rem;
+     border: 2px solid var(--primary-second);
+     border-radius: 0.8rem;
+     font-size: 20px;
+ }
+ #check-btn {
+     margin: 1rem;
+     padding: 0.5rem 1.5rem;
+     color: var(--third-color);
+     background-color: var(--primary-first);
+     border: 2px solid var(--primary-first);
+     border-radius: 0.2rem;
+     transition-duration: 0.4s;
+     cursor: pointer;
+ }
+ 
+ #check-btn:hover {
+     background-color: var(--third-color);
+     color: var(--primary-first);
+     border: 2px solid var(--primary-second);
+     font-weight: bold;
+ }
+ 
+ #output {
+     padding: 1rem 0 5rem 0;
+     max-width: 350px;
+     margin: 1rem auto;
+ }
+ 
+ .footer {
+     text-align: center;
+     margin: 2rem auto 10px auto;
+     padding-top: 1.5rem;
+     padding-bottom: 1rem;
+     border-bottom-right-radius: 1rem;
+     border-bottom-left-radius: 1rem;
+     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+     background-color: var(--primary-first);
+     color: white;
+     font-weight: bold;
+     font-size: larger;
+     
+ }
+ 
+ .footer .list {
+     padding-inline-start: 0px;
+ }
+ 
+ .non-bullet-items {
+     list-style: none;
+ }
+ 
+ .list .list-inline-item {
+     display: inline;
+     padding: 1rem 0rem;
+ }
+ 
+ footer .links {
+     padding: 0.5rem 0.2rem;
+     display: inline-block;
+ }
+ 
+ .ionicons {
+     font-size: 30px;
+     color: white;
+ }
+ 
+ .ionicons:hover {
+     color: var(--primary-second);
+ }
+ 
+ .footer .attributes {
+     color: var(--primary-first);
+     font-size: 20px;
+ }
