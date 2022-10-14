@@ -1,7 +1,7 @@
 :root {
-    --primary-first: rgb(90, 38, 38);
-     --primary-second: black;
-     --third-color:white;
+   --primary-first: rgb(241, 116, 116);
+    --primary-second: rgb(131, 78, 78);
+    --third-color:white;
  }
  body {
      font-family: 'Source Sans Pro', sans-serif;
